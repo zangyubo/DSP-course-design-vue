@@ -1,7 +1,7 @@
 <template>
   <div class="login-form-wrapper">
-    <div class="login-form-title">{{ $t('login.form.title') }}</div>
-    <div class="login-form-sub-title">{{ $t('login.form.title') }}</div>
+    <div class="login-form-title">登录 DSP 课程设计平台</div>
+    <div class="login-form-sub-title">欢迎使用</div>
     <div class="login-form-error-msg">{{ errorMessage }}</div>
     <a-form
       ref="loginForm"
@@ -42,22 +42,22 @@
         </a-input-password>
       </a-form-item>
       <a-space :size="16" direction="vertical">
-        <div class="login-form-password-actions">
+        <!-- <div class="login-form-password-actions">
           <a-checkbox
             checked="rememberPassword"
             :model-value="loginConfig.rememberPassword"
             @change="setRememberPassword as any"
           >
-            {{ $t('login.form.rememberPassword') }}
+            <div style="color: aliceblue">记住密码</div>
           </a-checkbox>
           <a-link>{{ $t('login.form.forgetPassword') }}</a-link>
-        </div>
+        </div> -->
         <a-button type="primary" html-type="submit" long :loading="loading">
-          {{ $t('login.form.login') }}
+          登录
         </a-button>
-        <a-button type="text" long class="login-form-register-btn">
+        <!-- <a-button type="text" long class="login-form-register-btn">
           {{ $t('login.form.register') }}
-        </a-button>
+        </a-button> -->
       </a-space>
     </a-form>
   </div>
@@ -135,7 +135,7 @@
     }
 
     &-title {
-      color: var(--color-text-1);
+      color: white;
       font-weight: 500;
       font-size: 24px;
       line-height: 32px;
