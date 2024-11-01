@@ -31,7 +31,6 @@ import localeSettings from './zh-CN/settings';
 export default {
   '频谱分析': '频谱分析',
   '数据加密': '数据加密',
-  '加密处理': '加密处理',
   'menu.dashboard': '仪表盘',
   'menu.server.dashboard': '仪表盘-服务端',
   'menu.server.workplace': '工作台-服务端',
