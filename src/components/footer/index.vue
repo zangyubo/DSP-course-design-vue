@@ -11,8 +11,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 40px;
+    height: 30px;
     color: var(--color-text-2);
     text-align: center;
+    background-color: blue;
   }
 </style>

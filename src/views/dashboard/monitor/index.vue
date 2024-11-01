@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="spectrogram-container">
     <a-breadcrumb style="margin: 5px 0">
       <a-breadcrumb-item>
         <icon-check-circle />
@@ -7,7 +7,11 @@
       <a-breadcrumb-item>频谱分析</a-breadcrumb-item>
       <a-breadcrumb-item>频谱图</a-breadcrumb-item>
     </a-breadcrumb>
-    <div style="background-color: red, width= 100%, height= 100%"></div>
+    <div class="spectrogram-container-echarts">
+      <div class="pectrogram-container-echarts-3d"></div>
+      <div class="pectrogram-container-echarts-else"></div>
+    </div>
+    <div class="spectrogram-container-function"> </div>
   </div>
 </template>
 
@@ -20,9 +24,35 @@
 </script>
 
 <style scoped lang="less">
-  .container {
-    padding: 0 20px 20px 20px;
-    margin-bottom: 20px;
+  .spectrogram-container {
+    padding: 0 10px 0px 10px;
+    // margin-bottom: 20px;
+    background-color: red;
+    height: 86vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .spectrogram-container-echarts {
+    flex: 3;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+
+    .pectrogram-container-echarts-3d {
+      flex: 4;
+      background-color: chartreuse;
+    }
+
+    .pectrogram-container-echarts-else {
+      flex: 2;
+      background-color: blue;
+    }
+  }
+
+  .spectrogram-container-function {
+    flex: 1;
+    background-color: aqua;
   }
 </style>
 
