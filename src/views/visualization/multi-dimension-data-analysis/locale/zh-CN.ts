@@ -1,4 +1,7 @@
 export default {
+  '音频处理': '音频处理',
+  '图像对比': '图像对比',
+  '': '',
   'menu.visualization.multiDimensionDataAnalysis': '多维数据分析',
   'multiDAnalysis.card.title.dataOverview': '数据总览',
   'multiDAnalysis.dataOverview.contentProduction': '内容生产量',

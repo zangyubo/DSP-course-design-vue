@@ -1,4 +1,5 @@
 export default {
+  '频谱图': '频谱图',
   'menu.dashboard.monitor': '实时监控',
   'monitor.title.chatPanel': '聊天窗口',
   'monitor.title.quickOperation': '快捷操作',

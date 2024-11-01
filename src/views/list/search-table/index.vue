@@ -1,6 +1,12 @@
 <template>
   <div class="container">
-    <Breadcrumb :items="['数据加密', '加密处理']" />
+    <a-breadcrumb style="margin: 5px 0">
+      <a-breadcrumb-item>
+        <icon-check-circle />
+      </a-breadcrumb-item>
+      <a-breadcrumb-item>数据加密</a-breadcrumb-item>
+      <a-breadcrumb-item>加密处理</a-breadcrumb-item>
+    </a-breadcrumb>
     <a-card class="general-card" :title="$t('menu.list.searchTable')">
       <a-row>
         <a-col :flex="1">

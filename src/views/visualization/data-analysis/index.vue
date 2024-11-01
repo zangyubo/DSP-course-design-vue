@@ -1,6 +1,12 @@
 <template>
   <div class="container">
-    <Breadcrumb :items="['音频处理', '噪声处理']" />
+    <a-breadcrumb style="margin: 5px 0">
+      <a-breadcrumb-item>
+        <icon-check-circle />
+      </a-breadcrumb-item>
+      <a-breadcrumb-item>音频处理</a-breadcrumb-item>
+      <a-breadcrumb-item>噪声处理</a-breadcrumb-item>
+    </a-breadcrumb>
     <a-space direction="vertical" :size="12" fill>
       <a-space direction="vertical" :size="16" fill>
         <div class="space-unit">

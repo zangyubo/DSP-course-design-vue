@@ -1,4 +1,5 @@
 export default {
+  '噪声处理': '噪声处理',
   'menu.visualization.dataAnalysis': '分析页',
   'dataAnalysis.title.publicOpinion': '舆情分析',
   'dataAnalysis.card.title.allVisitors': '访问总人次',

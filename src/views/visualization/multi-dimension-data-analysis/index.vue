@@ -1,6 +1,12 @@
 <template>
   <div class="container">
-    <Breadcrumb :items="['音频处理', '图像对比']" />
+    <a-breadcrumb style="margin: 5px 0">
+      <a-breadcrumb-item>
+        <icon-check-circle />
+      </a-breadcrumb-item>
+      <a-breadcrumb-item>音频处理</a-breadcrumb-item>
+      <a-breadcrumb-item>图像对比</a-breadcrumb-item>
+    </a-breadcrumb>
     <a-space direction="vertical" :size="16" fill>
       <a-grid :cols="24" :col-gap="16" :row-gap="16">
         <a-grid-item
