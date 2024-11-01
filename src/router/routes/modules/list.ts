@@ -6,15 +6,15 @@ const LIST: AppRouteRecordRaw = {
   name: 'list',
   component: DEFAULT_LAYOUT,
   meta: {
-    locale: 'menu.list',
+    locale: '数据加密',
     requiresAuth: true,
-    icon: 'icon-list',
+    icon: 'icon-lock',
     order: 2,
   },
   children: [
     {
       path: 'search-table', // The midline path complies with SEO specifications
-      name: 'SearchTable',
+      name: '加密处理',
       component: () => import('@/views/list/search-table/index.vue'),
       meta: {
         locale: 'menu.list.searchTable',
@@ -22,16 +22,16 @@ const LIST: AppRouteRecordRaw = {
         roles: ['*'],
       },
     },
-    {
-      path: 'card',
-      name: 'Card',
-      component: () => import('@/views/list/card/index.vue'),
-      meta: {
-        locale: 'menu.list.cardList',
-        requiresAuth: true,
-        roles: ['*'],
-      },
-    },
+    // {
+    //   path: 'card',
+    //   name: 'Card',
+    //   component: () => import('@/views/list/card/index.vue'),
+    //   meta: {
+    //     locale: 'menu.list.cardList',
+    //     requiresAuth: true,
+    //     roles: ['*'],
+    //   },
+    // },
   ],
 };
 

@@ -1,8 +1,6 @@
 <template>
   <div class="container">
-    <Breadcrumb
-      :items="['menu.visualization', 'menu.visualization.dataAnalysis']"
-    />
+    <Breadcrumb :items="['音频处理', '噪声处理']" />
     <a-space direction="vertical" :size="12" fill>
       <a-space direction="vertical" :size="16" fill>
         <div class="space-unit">

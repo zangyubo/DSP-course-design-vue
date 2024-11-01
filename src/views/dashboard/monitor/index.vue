@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <Breadcrumb :items="['menu.dashboard', 'menu.dashboard.monitor']" />
+    <Breadcrumb :items="['频谱分析', '频谱图']" />
     <div class="layout">
       <div class="layout-left-side">
         <ChatPanel />
